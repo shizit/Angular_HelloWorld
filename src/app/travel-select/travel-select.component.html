@@ -1,0 +1,9 @@
+<ul class="travels">
+    <li *ngFor="let travel of travels">
+      <div><span>タイトル: {{travel.travel_name}}</span><span>日付: {{travel.travel_date}}</span></div>
+    </li>
+</ul>
+<nav>
+  <a routerLink="/travel-register">travel-register</a>
+</nav>
+
