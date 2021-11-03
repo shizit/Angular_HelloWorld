@@ -9,18 +9,49 @@ import { TravelsService } from '../services/travels.service';
 })
 export class TravelSelectComponent implements OnInit {
 
-  travels: Travel[] = [];
+  getTravels: Travel[] = [];
+  postTravel: Travel = {
+    travel_id: 0,
+    travel_name: 'default',
+    travel_date: 'default'
+  };
   constructor(private dataService: TravelsService) { }
 
   ngOnInit(): void {
     this.dataService.getTravels()
     .subscribe
     (
-      data => {
-        this.travels = data;
-        console.log(data);
+      response => {
+        this.getTravels = response;
       } 
     )
   } 
+
+  onRegister(): void {
+    this.postTravel = {
+      travel_id: 0,
+      travel_name: this.postTravel.travel_name,
+      travel_date: this.postTravel.travel_date
+    };
+
+    this.dataService.postTravels(this.postTravel)
+      .subscribe
+      (
+        response => {
+          this.getTravels = response;
+        }
+      )
+  }
+
+  onDelete(deleteTravel: Travel): void {
+    console.log("onDelete実行");
+    console.log(deleteTravel);
+    this.dataService.deleteTravels(deleteTravel)
+    .subscribe(
+      response => {
+        this.getTravels = response;
+      }
+    )
+  }
 
 }

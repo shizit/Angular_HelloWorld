@@ -1,8 +1,12 @@
 <ul class="travels">
-    <li *ngFor="let travel of travels">
-      <div><span>タイトル: {{travel.travel_name}}</span><span>日付: {{travel.travel_date}}</span></div>
+    <li *ngFor="let travel of getTravels">
+      <div><span>タイトル:</span> {{travel.travel_name}}<span>日付:</span> {{travel.travel_date}}<button (click)="onDelete(travel)">DELETE</button></div>
     </li>
 </ul>
+<form>
+  <span>タイトル:</span><input [(ngModel)]="postTravel.travel_name" name="post_travel_name"><span>日付:</span><input [(ngModel)]="postTravel.travel_date" name="post_travel_date">
+<button (click)="onRegister()">Register</button>
+</form>
 <nav>
   <a routerLink="/travel-register">travel-register</a>
 </nav>
