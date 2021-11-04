@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { TravelSelectComponent } from './travel-select/travel-select.component';
 import { TravelRegisterComponent } from './travel-register/travel-register.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TravelRegisterComponent } from './travel-register/travel-register.compo
     HomeComponent,
     ListComponent,
     TravelSelectComponent,
-    TravelRegisterComponent
+    TravelRegisterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

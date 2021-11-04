@@ -1,0 +1,52 @@
+
+a {
+    color: #fff;
+}
+
+p.explanatory-text {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.title {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+
+.explanation {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+.explanatory-block {
+    width: 28%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.explanatory-image {
+    width:100%;
+    margin: 0 auto;
+}
+
+.navigations {
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+}
+
+.navigaton {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
