@@ -1,0 +1,65 @@
+.overlay {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    overflow: hidden;
+    height: 200px;
+    width: 400px;
+    background-color: #E4E4E4;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+    z-index: 1001;
+  }
+
+  .close_button {
+    width: 50px;
+    margin: 0 0 0 auto;
+  }
+
+  .loginbutton {
+    background-color: #2465E5;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+} 
+
+  .inputs {
+      width: 200px;
+  }
+  .input {
+    height: 30px;
+  }
+  
+  .header {
+    height: 70px;
+  }
+
+  .contents {
+    height: 170px;
+    width: 400px;
+    margin: auto;
+
+  }
+
+.forms {
+    display: flex;
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+  

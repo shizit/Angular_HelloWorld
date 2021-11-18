@@ -11,6 +11,7 @@ import { ListComponent } from './list/list.component';
 import { TravelSelectComponent } from './travel-select/travel-select.component';
 import { TravelRegisterComponent } from './travel-register/travel-register.component';
 import { HeaderComponent } from './header/header.component';
+import { LoginModalComponent } from './login-modal/login-modal.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderComponent } from './header/header.component';
     ListComponent,
     TravelSelectComponent,
     TravelRegisterComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginModalComponent
   ],
   imports: [
     BrowserModule,

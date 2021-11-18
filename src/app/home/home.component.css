@@ -10,10 +10,9 @@ p.explanatory-text {
 }
 .title {
     text-align: center;
-    height: 100px;
-    line-height: 100px;
+    height: 150px;
+    line-height: 150px;
     color: #fff;
-    margin-top: 80px;
     font-size: 20px;
 }
 
@@ -49,4 +48,19 @@ p.explanatory-text {
     float: left;
     width: 50%;
     text-align: center;
+}
+
+.resetbuttonstyle {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer; 
 }
