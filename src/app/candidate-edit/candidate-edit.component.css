@@ -1,0 +1,65 @@
+.candidate-detail {
+    width: 800px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+  }
+  .candidate-images {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .candidate-image {
+      width: 180px;
+      height: 130px;
+      margin: 10px;
+  }
+  .candidate-info {
+      padding-left:30px;
+      width: 400px;
+  }
+  .candidate-info-title {
+      height: 80px;
+      line-height: 80px;
+      font-size: 30px;
+  }
+  .candidate-info-contents {
+      margin-top:20px;
+  }
+  .candidate-info-content {
+      height:30px;
+      line-height: 30px;
+  }
+  .candidate-actions {
+      width:170px;
+      height: 450px;
+      display: flex;
+      align-items: flex-end;
+  }
+  button {
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 3px;
+    color: #fff;    
+}
+.candidate-buttons {
+    margin-bottom:20px;
+}
+
+#save-button {
+    background-color: #29702C;
+}
+#cancel-button {
+    background-color: #707070;
+}
+#candidate-image-add-icon {
+    border: 1px solid;
+}
+.add-icon {
+    width: 50px;
+    height: 50px;
+    margin: 40px 65px;
+}

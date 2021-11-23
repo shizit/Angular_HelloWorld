@@ -16,5 +16,8 @@ export class CandidateDetailComponent implements OnInit {
   toCandidateList() {
     this.router.navigateByUrl('/candidate-list');
   }
+  toCandidateEdit() {
+    this.router.navigateByUrl('/candidate-edit');
+  }
 
 }

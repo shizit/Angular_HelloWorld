@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { LoginModalComponent } from './login-modal/login-modal.component';
 import { CandidateListComponent } from './candidate-list/candidate-list.component';
 import { CandidateDetailComponent } from './candidate-detail/candidate-detail.component';
+import { CandidateEditComponent } from './candidate-edit/candidate-edit.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CandidateDetailComponent } from './candidate-detail/candidate-detail.co
     HeaderComponent,
     LoginModalComponent,
     CandidateListComponent,
-    CandidateDetailComponent
+    CandidateDetailComponent,
+    CandidateEditComponent
   ],
   imports: [
     BrowserModule,
