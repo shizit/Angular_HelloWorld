@@ -1,0 +1,41 @@
+.title {
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+}
+.candidate-list {
+  display: flex;
+  width: 1040px;
+  margin: 0 auto;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+}
+li {
+  width: 500px;
+  height: 150px;
+  margin: 10px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 2px 2px 4px gray;
+}
+.candidate_image {
+  width: 140px;
+  height: 120px;
+  margin: 15px 15px;
+}
+
+.candidate_title {
+  margin-top: 15px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.add-icon {
+  width: 50px;
+  height: 50px;
+  margin: 50px 175px ;
+}

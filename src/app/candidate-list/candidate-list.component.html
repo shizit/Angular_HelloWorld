@@ -1,0 +1,16 @@
+<div class="title">卒業3人旅　2021/10/04 - 2021/10/06</div>
+<ul class="candidate-list">
+  <li class="candidate" *ngFor="let candidate of candidates" (click)="toCandidateDetail()">
+    <div class="candidate_left">
+      <img class="candidate_image" src="../../assets/images/okinawa.jpg" />
+    </div>
+    <div class="candidate_right">
+      <div class="candidate_title">{{ candidate.candidate_title }}</div>
+      <div class="candidate_point"><span>ポイント：　</span>{{ candidate.point }}</div>
+      <div class="candidate_cost"><span>費用：　</span>{{ candidate.cost }}</div>
+    </div>
+  </li>
+  <li>
+    <img class="add-icon" src="../../assets/images/plusicon.png" />
+  </li>
+</ul>

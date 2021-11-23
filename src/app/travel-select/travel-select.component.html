@@ -1,7 +1,7 @@
 <div class="title">旅行を選んでください</div>
 
 <ul class="travel-list">
-  <li class="travel" *ngFor="let travel of travels">
+  <li class="travel" *ngFor="let travel of travels" (click)="toCandidateList()">
     <div class="travel-title">{{ travel.travel_date }} {{ travel.travel_name }}</div>
     <img class="travel-image" src="../../assets/images/okinawa.jpg" />
   </li>

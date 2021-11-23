@@ -31,6 +31,11 @@ export class TravelSelectComponent implements OnInit {
   toTravelRegister() {
     this.router.navigateByUrl('/travel-register');
   }
+
+  toCandidateList() {
+    this.router.navigateByUrl('/candidate-list');
+  }
+  
   onDelete(deleteTravel: Travel): void {
     console.log('onDelete実行');
     console.log(deleteTravel);

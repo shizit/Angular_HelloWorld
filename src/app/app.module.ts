@@ -12,6 +12,8 @@ import { TravelSelectComponent } from './travel-select/travel-select.component';
 import { TravelRegisterComponent } from './travel-register/travel-register.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginModalComponent } from './login-modal/login-modal.component';
+import { CandidateListComponent } from './candidate-list/candidate-list.component';
+import { CandidateDetailComponent } from './candidate-detail/candidate-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { LoginModalComponent } from './login-modal/login-modal.component';
     TravelSelectComponent,
     TravelRegisterComponent,
     HeaderComponent,
-    LoginModalComponent
+    LoginModalComponent,
+    CandidateListComponent,
+    CandidateDetailComponent
   ],
   imports: [
     BrowserModule,
