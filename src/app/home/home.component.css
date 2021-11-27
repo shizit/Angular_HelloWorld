@@ -1,18 +1,12 @@
 
-a {
-    color: #fff;
-}
 
 p.explanatory-text {
-    color: #fff;
-    text-align: center;
     margin: 0;
 }
 .title {
     text-align: center;
     height: 150px;
     line-height: 150px;
-    color: #fff;
     font-size: 20px;
 }
 
@@ -51,7 +45,6 @@ p.explanatory-text {
 }
 
 .resetbuttonstyle {
-    color: #fff;
     text-decoration: none;
     font-weight: normal;
     font-size: 16px;

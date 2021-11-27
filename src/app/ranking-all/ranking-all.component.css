@@ -1,0 +1,69 @@
+.contents {
+    padding: 10px;
+}
+.title {
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    font-size: 20px;
+}
+.ranking {
+    width:800px;
+    height:600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.ranking-part {
+    width:33%;
+    background-color: #EEE;
+}
+.ranking-blank-second {
+    height:50px;
+}
+.ranking-blank-third {
+    height:100px;
+}
+.ranking-info {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.candidate-title {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+.candidate-image {
+    width: 180px;
+    height: 130px;
+    margin: 0 10px;
+  }
+
+.ranking-stand-second {
+    width: 100%;
+    height: 150px;
+    background-color: #ADB0B2;
+}
+
+.ranking-stand-first {
+    width: 100%;
+    height: 200px;
+    background-color: #F6EA7E;
+}
+
+.ranking-stand-third {
+    width: 100%;
+    height: 100px;
+    background-color: #F0BD65;
+}
+
+.ranking-stand-number {
+    font-size:50px;
+    text-align: center;
+
+}

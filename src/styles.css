@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-image: url("./assets/images/background.jpg");
+    /* background-image: url("./assets/images/background.jpg"); */
+    background-color: #EEE;
     background-size: cover;
  }
 

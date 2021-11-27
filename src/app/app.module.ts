@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule }    from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,8 @@ import { LoginModalComponent } from './login-modal/login-modal.component';
 import { CandidateListComponent } from './candidate-list/candidate-list.component';
 import { CandidateDetailComponent } from './candidate-detail/candidate-detail.component';
 import { CandidateEditComponent } from './candidate-edit/candidate-edit.component';
+import { NavibarComponent } from './navibar/navibar.component';
+import { RankingAllComponent } from './ranking-all/ranking-all.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +31,16 @@ import { CandidateEditComponent } from './candidate-edit/candidate-edit.componen
     LoginModalComponent,
     CandidateListComponent,
     CandidateDetailComponent,
-    CandidateEditComponent
+    CandidateEditComponent,
+    NavibarComponent,
+    RankingAllComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    FlexLayoutModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

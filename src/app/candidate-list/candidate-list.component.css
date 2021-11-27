@@ -1,7 +1,10 @@
+.contents {
+  padding: 10px;
+}
 .title {
   height: 50px;
   line-height: 50px;
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 .candidate-list {
