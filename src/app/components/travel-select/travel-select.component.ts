@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Travel } from '../travel';
-import { TravelsService } from '../services/travels/travels.service';
+import { Travel } from '../../interfaces/travel';
+import { TravelsService } from '../../services/travels/travels.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -40,7 +40,6 @@ export class TravelSelectComponent implements OnInit {
     console.log('onDelete実行');
     console.log(deleteTravel);
     this.dataService.deleteTravels(deleteTravel).subscribe((response) => {
-      this.travels = response;
     });
   }
 }

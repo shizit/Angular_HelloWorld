@@ -1,0 +1,25 @@
+<div class="all" layout="row">
+  <app-navibar fxFlex="210px"></app-navibar>
+  <div class="contents" fxFlex="100">
+    <div class="title">ランキング（入力）</div>
+    <div cdkDropList class="ranking-list" (cdkDropListDropped)="drop($event)">
+      <div class="ranking-column-header">
+        <div class="div-column" style="width: 25%">ランキング</div>
+        <div class="div-column" style="width: 50%">名前</div>
+        <div class="div-column" style="width: 25%">ポイント</div>
+      </div>
+      <div class="ranking-box" *ngFor="let ranking of rankings" cdkDrag>
+        <div class="div-column" style="width: 25%">
+          {{ rankings.indexOf(ranking) + 1 }}
+        </div>
+        <div class="div-column" style="width: 50%">
+          {{ ranking.candidate_name }}
+        </div>
+        <div class="div-column" style="width: 25%">{{ ranking.point }}</div>
+      </div>
+    </div>
+    <div class="register">
+    <button type="submit" id="save-button">REGISTER</button>
+</div>
+  </div>
+</div>

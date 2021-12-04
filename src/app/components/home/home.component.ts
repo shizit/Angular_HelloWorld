@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { LoginModalComponent } from '../login-modal/login-modal.component';
-import { LoginModalService } from '../services/login-modal/login-modal.service';
+import { LoginModalService } from '../../services/login-modal/login-modal.service';
 
 @Component({
   selector: 'app-home',

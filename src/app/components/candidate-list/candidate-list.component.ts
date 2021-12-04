@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Candidate } from '../candidate';
+import { Candidate } from 'src/app/interfaces/candidate';
 import { Router } from '@angular/router';
 
 @Component({

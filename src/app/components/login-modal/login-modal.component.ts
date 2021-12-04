@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LoginModalService } from '../services/login-modal/login-modal.service';
+import { LoginModalService } from '../../services/login-modal/login-modal.service';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-login-modal',
